@@ -1,0 +1,43 @@
+  <header>
+  <nav class="z-depth-0 top-header blue darken-3">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Система дистанционного обучения</a>
+    </div>
+  </nav>
+  <ul id="slide-out" class="side-nav fixed">
+    <li class="logo"><img src="img/logo-cipk-95-76.png"></li>
+    <li><a routerLink="/home" routerLinkActive="blue-text text-darken-4 grey lighten-5" class="waves-effect waves-blue">О системе<i class="material-icons">info_outline</i></a></li>
+    <li><a routerLink="/courses" routerLinkActive="blue-text text-darken-4 grey lighten-5" class="waves-effect waves-blue">Учебные курсы<i class="material-icons">book</i></a></li>
+    <li><a href="#" class="waves-effect waves-blue">Тестирование<i class="material-icons">assessment</i></a></li>
+    <li class="login-form">
+      <form>
+        <div class="row">
+          <div class="col s12 text-darken-4 blue-text"><h6>Вход в систему</h6></div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="username" name="username" type="text" placeholder="Имя пользователя">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" name="password" type="password" placeholder="Пароль">
+          </div>
+        </div>
+        <div class="row submit-button">
+          <button class="col s6 offset-s3 btn waves-effect blue darken-3" type="submit">Войти</button>
+        </div>
+      </form>
+    </li>
+  </ul>
+</header>
+<main>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+<footer class="page-footer blue darken-3">
+<div class="footer-copyright">
+  <div class="container">© 2016 НОУ ДПО "ЦИПК Росатома"</div>
+</div>
+</footer>
