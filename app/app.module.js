@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var home_component_1 = require('./home/home.component');
 var courses_component_1 = require('./courses/courses.component');
+//import {CourseComponent} from './courses/course.component';
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
     function AppModule() {
